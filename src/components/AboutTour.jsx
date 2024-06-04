@@ -51,20 +51,12 @@ export default function AccordionExpandDefault() {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  This tour begins at a small place called Jakiruša – Brela.
-                  Beautiful Jakiruša bay is surrounded by the spectacular
-                  mountain of Biokovo. There is a sandy beach in Jakiruša,
-                  popular with locals and tourists for swimming and on the west
-                  side, there is a rocky coast and one of the last untouched
-                  bays in this part of the Riviera – bay Vrulja. We launch our
-                  sea kayaks on the beach and paddle lightly towards the
-                  deserted sandy beaches of Vrulja bay. We stop to observe the
-                  submarine groundwater source that brings 50 m3 of drinking
-                  water per second to this place even in the summer. Our paddle
-                  takes us to Vrulja beach where we pause to swim and snorkel in
-                  crystal blue waters. After the kayaking adventure, we can
-                  arrange a delicious meal in a local restaurant (not included
-                  in the price).
+                  Let's explore together with kayaks the beauty of the Šibenik
+                  canal and the city of Šibenik, i.e. the fictitious Bravos from
+                  the popular game of thrones series. Let's swim in the crystal
+                  blue sea on the beach next to the caves and visit the UNESCO
+                  heritage site, the imposing sea fortress of St. Nicholas.{" "}
+                  <br /> Tour: 3h - 6km
                 </Typography>
               </AccordionDetails>
             </Accordion>

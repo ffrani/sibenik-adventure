@@ -46,7 +46,7 @@ const GridContainer = () => {
           <div>duration</div>
         </div>
       </div>
-      <div className="grid-item">
+      {/* <div className="grid-item">
         <div>
           <RoomRoundedIcon />
         </div>
@@ -54,7 +54,7 @@ const GridContainer = () => {
           <div>10:20am</div>
           <div>departure</div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
