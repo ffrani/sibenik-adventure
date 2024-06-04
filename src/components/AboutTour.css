@@ -1,0 +1,32 @@
+.accordion-container {
+  display: flex;
+  /* padding: 0 20px; */
+  padding-top: 50px;
+}
+
+.image-container {
+  flex: 1;
+  /* padding: 0 50px; */
+  padding-left: 300px;
+  padding-top: 122px;
+}
+
+.text-container {
+  flex: 1;
+  padding-right: 300px;
+  /* padding: 80px 150px; Padding for desktop screens */
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    display: none;
+  }
+
+  .text-container {
+    padding: 10px; /* Padding for smaller screens */
+  }
+
+  .accordion-container {
+    display: flex;
+  }
+}

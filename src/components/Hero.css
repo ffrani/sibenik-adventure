@@ -1,0 +1,40 @@
+.hero {
+  background-image: url("../assets/sibenik-adventure-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.hero .container {
+  width: 100%;
+  padding-left: 35px; /* Adjust the padding as needed */
+}
+
+.hero .content {
+  text-align: left;
+}
+
+.hero .content h1 {
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.hero .content p {
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.hero .content button {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero .content button:hover {
+  background-color: #ccc;
+}

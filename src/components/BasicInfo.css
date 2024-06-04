@@ -1,0 +1,36 @@
+.grid-container {
+  display: inline-flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.grid-item {
+  flex: 0 0 20%;
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 20px; Add margin between grid items */
+}
+
+.grid-item > div:first-child {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .grid-item {
+    flex: 0 0 50%; /* Change flex basis to 50% for two items in a row on smaller screens */
+  }
+
+  .grid-container {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
