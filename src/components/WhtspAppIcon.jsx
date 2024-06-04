@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 
 const WhatsAppIcon = () => {
-  const phoneNumber = "+4746555654";
+  const phoneNumber = "+385994183868";
 
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${phoneNumber}`, "_blank");

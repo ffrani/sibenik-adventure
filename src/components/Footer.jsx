@@ -1,4 +1,3 @@
-import React from "react";
 import { styled } from "@mui/material/styles";
 import { Typography, Grid, Link } from "@mui/material";
 import Logo from "../assets/logo2.jpg";
@@ -55,20 +54,20 @@ const Footer = () => {
               <LogoImage src={Logo} alt="Logo" />
             </Grid>
             <Grid item>
-              <Typography variant="body2">Šibenik Kayaking</Typography>
+              <Typography variant="body2">Adventure Šibenik</Typography>
               <Typography variant="body2">
                 Address: 123 Main Street, Šibenik
               </Typography>
-              <Typography variant="body2">Phone: +1234567890</Typography>
+              <Typography variant="body2">Phone: +385 99 478 3868</Typography>
               <Typography variant="body2">
-                Email: info@sibenikkayaking.com
+                Email: adventuresibenik@gmail.com
               </Typography>
             </Grid>
           </Grid>
         </Grid>
       </Grid>
       <Typography variant="body2" align="center" sx={{ marginTop: "20px" }}>
-        © 2024 Šibenik Kayaking
+        © 2024 Adventure Šibenik
       </Typography>
     </FooterContainer>
   );
