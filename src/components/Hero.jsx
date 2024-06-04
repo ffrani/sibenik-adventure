@@ -10,7 +10,7 @@ const Hero = () => {
           Let&apos;s explore together with kayaks, <br /> the beauty of the
           Šibenik canal <br /> and the city of Šibenik.
         </p>
-        <button>Rezervation</button>
+        <button>Reservation</button>
       </div>
     </section>
   );
