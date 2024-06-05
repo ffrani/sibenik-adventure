@@ -30,7 +30,7 @@
     display: flex;
   }
 
-  h1 {
+  .about-tour {
     text-align: center;
   }
 }

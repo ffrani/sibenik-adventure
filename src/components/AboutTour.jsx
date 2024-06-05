@@ -43,7 +43,7 @@ export default function AccordionExpandDefault() {
         </Grid>
         <Grid item xs={12} md={6}>
           <Typography>
-            <div>
+            <div className="about-tour">
               <h1>About tour</h1>
             </div>
           </Typography>
