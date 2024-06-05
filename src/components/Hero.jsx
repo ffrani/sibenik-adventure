@@ -1,6 +1,12 @@
 import "../components/Hero.css";
 
 const Hero = () => {
+  const phoneNumber = "+385994183868";
+
+  const handleWhatsAppClick = () => {
+    window.open(`https://wa.me/${phoneNumber}`, "_blank");
+  };
+
   return (
     <section className="hero">
       <div className="container">
@@ -16,6 +22,7 @@ const Hero = () => {
             color: "black",
             backgroundColor: "#FFFF49",
           }}
+          onClick={handleWhatsAppClick}
         >
           Reservation
         </button>

@@ -191,9 +191,12 @@ export default function ColumnsGrid() {
                     center
                     styles={{
                       modal: {
-                        maxWidth: "100%",
+                        maxWidth: "80%",
                         width: "80%",
+                        height: "auto",
+                        maxHeight: "80vh",
                         padding: "10px",
+                        overflow: "auto",
                       },
                     }}
                   >

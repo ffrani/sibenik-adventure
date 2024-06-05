@@ -18,6 +18,12 @@ export default function AccordionExpandDefault() {
     setExpanded(isExpanded ? panel : 0);
   };
 
+  const phoneNumber = "+385994183868";
+
+  const handleWhatsAppClick = () => {
+    window.open(`https://wa.me/${phoneNumber}`, "_blank");
+  };
+
   return (
     <Box p={2}>
       <Grid container spacing={2} className="accordion-container">
@@ -133,6 +139,7 @@ export default function AccordionExpandDefault() {
                   color: "black",
                   backgroundColor: "#FFFF49",
                 }}
+                onClick={handleWhatsAppClick}
               >
                 Reservation
               </button>
