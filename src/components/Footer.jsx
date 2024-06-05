@@ -54,9 +54,9 @@ const Footer = () => {
               <LogoImage src={Logo} alt="Logo" />
             </Grid>
             <Grid item>
-              <Typography variant="body2">Adventure Šibenik</Typography>
+              <Typography variant="body2">Name: Adventure Šibenik</Typography>
               <Typography variant="body2">
-                Address: 123 Main Street, Šibenik
+                Address: Piramatovci 32, Skradin
               </Typography>
               <Typography variant="body2">Phone: +385 99 478 3868</Typography>
               <Typography variant="body2">

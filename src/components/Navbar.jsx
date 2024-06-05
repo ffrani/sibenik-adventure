@@ -31,7 +31,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        <img src={Logo} alt="Logo" style={{ width: 40 }} />
+        <img src={Logo} alt="Logo" style={{ width: 90 }} />
       </Typography>
       <Divider />
       <List>
@@ -69,7 +69,6 @@ function DrawerAppBar(props) {
             sx={{ flexGrow: 1, display: "flex", alignItems: "center" }}
           >
             <img src={Logo} alt="Logo" style={{ width: 70, marginRight: 10 }} />
-            Šibenik Adventure
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
