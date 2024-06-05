@@ -1,6 +1,6 @@
 import { styled } from "@mui/material/styles";
 import { Typography, Grid, Link } from "@mui/material";
-import Logo from "../assets/logo2.jpg";
+import Logo from "../assets/logo3.png";
 
 const FooterContainer = styled("footer")({
   backgroundColor: "#333",

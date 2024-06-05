@@ -15,7 +15,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
-import Logo from "../assets/logo2.jpg";
+import Logo from "../assets/logo3.png";
 
 const drawerWidth = 240;
 const navItems = ["Home", "About", "Book", "Contact"];
