@@ -8,6 +8,9 @@ import Typography from "@mui/material/Typography";
 import Gallery1 from "../assets/gallery4.jpg";
 import Gallery2 from "../assets/gallery2.jpg";
 import Gallery3 from "../assets/gallery3.jpg";
+import Gallery4 from "../assets/gallery4.jpg";
+import Gallery5 from "../assets/gallery5.jpg";
+import Gallery6 from "../assets/gallery6.jpg";
 import Gallery7 from "../assets/gallery7.jpg";
 import Modal from "react-responsive-modal";
 import "react-responsive-modal/styles.css";
@@ -50,6 +53,22 @@ const images = [
   {
     original: Gallery3,
     thumbnail: Gallery3,
+  },
+  {
+    original: Gallery4,
+    thumbnail: Gallery4,
+  },
+  {
+    original: Gallery5,
+    thumbnail: Gallery5,
+  },
+  {
+    original: Gallery7,
+    thumbnail: Gallery7,
+  },
+  {
+    original: Gallery6,
+    thumbnail: Gallery6,
   },
 ];
 
