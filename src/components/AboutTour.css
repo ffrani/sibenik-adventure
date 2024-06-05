@@ -29,4 +29,8 @@
   .accordion-container {
     display: flex;
   }
+
+  h1 {
+    text-align: center;
+  }
 }

@@ -73,13 +73,13 @@ const images = [
 ];
 
 export default function ColumnsGrid() {
-  const opts = {
-    height: "315",
-    width: "100%",
-    playerVars: {
-      autoplay: 0,
-    },
-  };
+  // const opts = {
+  //   height: "315",
+  //   width: "100%",
+  //   playerVars: {
+  //     autoplay: 0,
+  //   },
+  // };
 
   const [open, setOpen] = useState(false);
 
@@ -103,43 +103,49 @@ export default function ColumnsGrid() {
             <Grid item xs={12} md={6}>
               <Grid container spacing={2}>
                 <Grid item xs={6} md={6}>
-                  <Item>
-                    <img
-                      src={Gallery1}
-                      alt="Description of the image"
-                      style={{
-                        maxWidth: "100%",
-                        maxHeight: "100%",
-                        objectFit: "cover",
-                      }}
-                    />
-                  </Item>
+                  <img
+                    src={Gallery1}
+                    alt="Description of the image"
+                    style={{
+                      maxWidth: "100%",
+                      maxHeight: "100%",
+                      objectFit: "cover",
+                      border: "4px solid #1976D2",
+                      width: "100%",
+                      borderRadius: "8px",
+                      overflow: "hidden",
+                    }}
+                  />
                 </Grid>
                 <Grid item xs={6} md={6}>
-                  <Item>
-                    <img
-                      src={Gallery2}
-                      alt="Description of the image"
-                      style={{
-                        maxWidth: "100%",
-                        maxHeight: "100%",
-                        objectFit: "cover",
-                      }}
-                    />
-                  </Item>
+                  <img
+                    src={Gallery2}
+                    alt="Description of the image"
+                    style={{
+                      maxWidth: "100%",
+                      maxHeight: "100%",
+                      objectFit: "cover",
+                      border: "4px solid #1976D2",
+                      width: "100%",
+                      borderRadius: "8px",
+                      overflow: "hidden",
+                    }}
+                  />
                 </Grid>
                 <Grid item xs={12}>
-                  <Item>
-                    <img
-                      src={Gallery3}
-                      alt="Description of the image"
-                      style={{
-                        maxWidth: "100%",
-                        maxHeight: "100%",
-                        objectFit: "cover",
-                      }}
-                    />
-                  </Item>
+                  <img
+                    src={Gallery3}
+                    alt="Description of the image"
+                    style={{
+                      maxWidth: "100%",
+                      maxHeight: "100%",
+                      objectFit: "cover",
+                      border: "4px solid #1976D2",
+                      width: "100%",
+                      borderRadius: "8px",
+                      overflow: "hidden",
+                    }}
+                  />
                 </Grid>
               </Grid>
             </Grid>
@@ -147,17 +153,20 @@ export default function ColumnsGrid() {
             <Grid item xs={12} md={6}>
               <Grid container spacing={2}>
                 <Grid item xs={12}>
-                  <Item>
-                    <img
-                      src={Gallery7}
-                      alt="Description of the image"
-                      style={{
-                        maxWidth: "100%",
-                        maxHeight: "100%",
-                        objectFit: "cover",
-                      }}
-                    />
-                  </Item>
+                  <img
+                    src={Gallery7}
+                    alt="Description of the image"
+                    style={{
+                      maxWidth: "100%",
+                      maxHeight: "100%",
+                      objectFit: "cover",
+                      border: "4px solid #1976D2",
+                      width: "100%",
+                      borderRadius: "8px",
+                      overflow: "hidden",
+                    }}
+                  />
+
                   {/* YouTube Video */}
                   {/* <YouTube videoId="JoLu1BJuIho" opts={opts} /> */}
                 </Grid>

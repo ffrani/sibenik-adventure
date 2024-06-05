@@ -9,7 +9,7 @@ import Box from "@mui/material/Box";
 
 import "../components/AboutTour.css";
 
-import AboutImage from "../assets/gallery2.jpg";
+import AboutImage from "../assets/gallery6.jpg";
 
 export default function AccordionExpandDefault() {
   const [expanded, setExpanded] = React.useState(1);
@@ -27,7 +27,7 @@ export default function AccordionExpandDefault() {
               src={AboutImage}
               alt="Tour Image"
               style={{
-                border: "8px solid white",
+                border: "4px solid #1976D2",
                 width: "80%",
                 borderRadius: "8px",
                 overflow: "hidden",
@@ -37,7 +37,9 @@ export default function AccordionExpandDefault() {
         </Grid>
         <Grid item xs={12} md={6}>
           <Typography>
-            <h1>About tour</h1>
+            <div>
+              <h1>About tour</h1>
+            </div>
           </Typography>
           <div className="text-container">
             <div className="accordion-heading"></div>
@@ -51,12 +53,12 @@ export default function AccordionExpandDefault() {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  Let's explore together with kayaks the beauty of the Šibenik
-                  canal and the city of Šibenik, i.e. the fictitious Bravos from
-                  the popular game of thrones series. Let's swim in the crystal
-                  blue sea on the beach next to the caves and visit the UNESCO
-                  heritage site, the imposing sea fortress of St. Nicholas.{" "}
-                  <br /> Tour: 3h - 6km
+                  Let&apos;s explore together with kayaks the beauty of the
+                  Šibenik canal and the city of Šibenik, i.e. the fictitious
+                  Bravos from the popular game of thrones series. Let&apos;s
+                  swim in the crystal blue sea on the beach next to the caves
+                  and visit the UNESCO heritage site, the imposing sea fortress
+                  of St. Nicholas. <br /> Tour: 3h - 6km
                 </Typography>
               </AccordionDetails>
             </Accordion>
