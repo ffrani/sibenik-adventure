@@ -63,12 +63,12 @@ const images = [
     thumbnail: Gallery5,
   },
   {
-    original: Gallery7,
-    thumbnail: Gallery7,
-  },
-  {
     original: Gallery6,
     thumbnail: Gallery6,
+  },
+  {
+    original: Gallery7,
+    thumbnail: Gallery7,
   },
 ];
 
@@ -180,12 +180,19 @@ export default function ColumnsGrid() {
                     open={open}
                     onClose={handleCloseModal}
                     center
+                    styles={{
+                      modal: {
+                        maxWidth: "100%",
+                        width: "80%",
+                        padding: "10px",
+                      },
+                    }}
                   >
                     <ImageGallery
                       items={images}
                       showBullets
                       showPlayButton
-                      style={{ maxHeight: "100px", maxWidth: "800px" }}
+                      style={{ width: "100%", height: "auto" }}
                     />
                   </Modal>
                 </Grid>
