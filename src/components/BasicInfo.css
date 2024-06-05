@@ -6,9 +6,13 @@
   /* padding-right: 300px; */
 }
 
+.text-elements {
+  color: white;
+}
+
 .grid-item {
   flex: 0 0 20%;
-  background-color: #ccc;
+  background-color: #1976d2;
   padding: 20px;
   text-align: center;
   box-sizing: border-box;

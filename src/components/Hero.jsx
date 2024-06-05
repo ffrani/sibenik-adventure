@@ -10,7 +10,15 @@ const Hero = () => {
           Let&apos;s explore together with kayaks, <br /> the beauty of the
           Šibenik canal <br /> and the city of Šibenik.
         </p>
-        <button>Reservation</button>
+        <button
+          style={{
+            fontSize: "1.5rem",
+            color: "black",
+            backgroundColor: "#FFFF49",
+          }}
+        >
+          Reservation
+        </button>
       </div>
     </section>
   );

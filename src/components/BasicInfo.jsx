@@ -11,7 +11,7 @@ const GridContainer = () => {
     <div className="grid-container">
       <div className="grid-item">
         <div style={{ marginLeft: "15px" }}>
-          <EuroSymbolRoundedIcon />
+          <EuroSymbolRoundedIcon style={{ color: "white" }} />
         </div>
         <div className="text-elements">
           <div>40€</div>
@@ -20,7 +20,7 @@ const GridContainer = () => {
       </div>
       <div className="grid-item">
         <div style={{ marginLeft: "15px" }}>
-          <CalendarMonthRoundedIcon />
+          <CalendarMonthRoundedIcon style={{ color: "white" }} />
         </div>
         <div className="text-elements">
           <div>1.5 - 1.10</div>
@@ -29,7 +29,7 @@ const GridContainer = () => {
       </div>
       <div className="grid-item">
         <div style={{ marginLeft: "15px" }}>
-          <PeopleRoundedIcon />
+          <PeopleRoundedIcon style={{ color: "white" }} />
         </div>
         <div className="text-elements">
           <div>2 - 16</div>
@@ -38,7 +38,7 @@ const GridContainer = () => {
       </div>
       <div className="grid-item">
         <div style={{ marginLeft: "15px" }}>
-          <AlarmRoundedIcon />
+          <AlarmRoundedIcon style={{ color: "white" }} />
         </div>
         <div className="text-elements">
           <div>3.00h</div>

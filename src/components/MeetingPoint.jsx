@@ -32,25 +32,59 @@ const SplitTextContainer = () => {
   return (
     <Container sx={{ marginTop: "50px", padding: "20px 0" }}>
       <Grid container spacing={2}>
-        <Grid item xs={12} sm={6}>
-          <Side sx={{ paddingLeft: "90px" }}>
-            <Typography variant="h5">Meeting Point</Typography>
+        <Grid item xs={12} sm={-1}>
+          <Side
+            sx={{
+              paddingLeft: "90px",
+              backgroundColor: "#1976D2",
+              marginLeft: "10px",
+              marginRight: "10px",
+            }}
+          >
+            <Typography
+              variant="h5"
+              style={{ color: "white", marginTop: "10px" }}
+            >
+              Meeting Point
+            </Typography>
             <Typography variant="body1" sx={{ paddingTop: "40px" }}>
               <AddressContainer>
-                <RoomRoundedIcon />
-                <span style={{ marginLeft: "8px" }}>
+                <RoomRoundedIcon style={{ color: "white" }} />
+                <span style={{ marginLeft: "8px", color: "white" }}>
                   Uvala Sv. Petar bb, 22000, Šibenik, Hrvatska
                 </span>
               </AddressContainer>
             </Typography>
             <a href="https://www.google.com/maps/place/Kayaking+%C5%A0ibenik/@43.7142408,15.9021255,17z/data=!3m1!4b1!4m6!3m5!1s0x1335252b80c98461:0x67189804d8418fe3!8m2!3d43.7142408!4d15.9021255!16s%2Fg%2F11h1yvmk39?entry=ttu">
-              <button style={{ marginTop: "40px" }}>See Location</button>
+              <button
+                style={{
+                  marginTop: "30px",
+                  marginBottom: "10px",
+                  fontSize: "1.1rem",
+                  color: "black",
+                  backgroundColor: "#FFFF49",
+                }}
+              >
+                See Location
+              </button>
             </a>
           </Side>
         </Grid>
-        <Grid item xs={12} sm={6}>
-          <Side sx={{ paddingRight: "90px" }}>
-            <Typography variant="h5">What to bring</Typography>
+        <Grid item xs={12} sm={-1}>
+          <Side
+            sx={{
+              paddingLeft: "90px",
+              backgroundColor: "#1976D2",
+              marginLeft: "10px",
+              marginRight: "10px",
+            }}
+          >
+            <Typography
+              variant="h5"
+              style={{ color: "white", marginTop: "10px" }}
+            >
+              What to bring
+            </Typography>
             <Typography
               variant="body1"
               sx={{
@@ -66,8 +100,10 @@ const SplitTextContainer = () => {
                   marginBottom: "8px",
                 }}
               >
-                <ArrowRightAltIcon />
-                <span style={{ marginLeft: "8px" }}>Swimming suit</span>
+                <ArrowRightAltIcon style={{ color: "white" }} />
+                <span style={{ marginLeft: "8px", color: "white" }}>
+                  Swimming suit
+                </span>
               </div>
               <div
                 style={{
@@ -76,8 +112,10 @@ const SplitTextContainer = () => {
                   marginBottom: "8px",
                 }}
               >
-                <ArrowRightAltIcon />
-                <span style={{ marginLeft: "8px" }}>Towel, water</span>
+                <ArrowRightAltIcon style={{ color: "white" }} />
+                <span style={{ marginLeft: "8px", color: "white" }}>
+                  Towel, water
+                </span>
               </div>
               <div
                 style={{
@@ -86,12 +124,22 @@ const SplitTextContainer = () => {
                   marginBottom: "8px",
                 }}
               >
-                <ArrowRightAltIcon />
-                <span style={{ marginLeft: "8px" }}>Dry clothes</span>
+                <ArrowRightAltIcon style={{ color: "white" }} />
+                <span style={{ marginLeft: "8px", color: "white" }}>
+                  Dry clothes
+                </span>
               </div>
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <ArrowRightAltIcon />
-                <span style={{ marginLeft: "8px" }}>Hat and sunscreen</span>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  marginBottom: "10px",
+                }}
+              >
+                <ArrowRightAltIcon style={{ color: "white" }} />
+                <span style={{ marginLeft: "8px", color: "white" }}>
+                  Hat and sunscreen
+                </span>
               </div>
             </Typography>
           </Side>

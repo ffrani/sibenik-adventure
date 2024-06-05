@@ -15,7 +15,7 @@ const LogoImage = styled("img")({
 
 const Footer = () => {
   return (
-    <FooterContainer sx={{ marginTop: "70px" }}>
+    <FooterContainer sx={{ marginTop: "70px", backgroundColor: "#1976D2" }}>
       <Grid container spacing={2}>
         <Grid
           item
@@ -29,17 +29,36 @@ const Footer = () => {
           }}
         >
           <Typography variant="body2" sx={{ marginBottom: "10px" }}>
-            <Link href="#">Home</Link> | <Link href="#">About</Link> |{" "}
-            <Link href="#">Book</Link> | <Link href="#">Contact</Link>
+            <Link style={{ color: "white" }} href="#">
+              Home
+            </Link>{" "}
+            |{" "}
+            <Link style={{ color: "white" }} href="#">
+              About
+            </Link>{" "}
+            |{" "}
+            <Link style={{ color: "white" }} href="#">
+              Book
+            </Link>{" "}
+            |{" "}
+            <Link style={{ color: "white" }} href="#">
+              Contact
+            </Link>
           </Typography>
           <Typography variant="body2">
             <b>Links to Important Pages:</b>
             <br />
-            <Link href="#">Terms of Service</Link>
+            <Link style={{ color: "white" }} href="#">
+              Terms of Service
+            </Link>
             <br />
-            <Link href="#">Privacy Policy</Link>
+            <Link style={{ color: "white" }} href="#">
+              Privacy Policy
+            </Link>
             <br />
-            <Link href="#">FAQ</Link>
+            <Link style={{ color: "white" }} href="#">
+              FAQ
+            </Link>
           </Typography>
         </Grid>
         <Grid item xs={12} md={6}>

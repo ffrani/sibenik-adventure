@@ -124,7 +124,16 @@ export default function AccordionExpandDefault() {
               </AccordionDetails>
             </Accordion>
             <Box mt={2}>
-              <button style={{ marginTop: "20px" }}>Reservation</button>
+              <button
+                style={{
+                  marginTop: "20px",
+                  fontSize: "1.5rem",
+                  color: "black",
+                  backgroundColor: "#FFFF49",
+                }}
+              >
+                Reservation
+              </button>
             </Box>
           </div>
         </Grid>

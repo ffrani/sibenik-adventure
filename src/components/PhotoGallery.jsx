@@ -146,7 +146,16 @@ export default function ColumnsGrid() {
                   <h1>
                     Pictures say <br /> more than <br /> words
                   </h1>
-                  <button onClick={handleOpenModal}>SHOW PHOTO GALLERY</button>
+                  <button
+                    style={{
+                      backgroundColor: "#FFFF49",
+                      color: "black",
+                      fontSize: "1.1rem",
+                    }}
+                    onClick={handleOpenModal}
+                  >
+                    Show photo gallery
+                  </button>
                   <Modal
                     className="modal"
                     open={open}
