@@ -2,6 +2,7 @@ import { styled } from "@mui/material/styles";
 import { Grid, Typography } from "@mui/material";
 import RoomRoundedIcon from "@mui/icons-material/RoomRounded";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import AlarmRoundedIcon from "@mui/icons-material/AlarmRounded";
 
 const Container = styled("div")({
   padding: "20px",
@@ -51,6 +52,15 @@ const SplitTextContainer = () => {
                 <RoomRoundedIcon style={{ color: "white" }} />
                 <span style={{ marginLeft: "8px", color: "white" }}>
                   Mandalina, Uvala Sv. Petar bb, 22000, Šibenik, Hrvatska
+                </span>
+              </AddressContainer>
+              <AddressContainer>
+                <AlarmRoundedIcon style={{ color: "white" }} />
+                <span style={{ marginLeft: "8px", color: "white" }}>
+                  <p>
+                    1st tour 09:00 AM - 12:00 PM
+                    <br /> 2nd tour 17:00 PM - 20:00 PM
+                  </p>
                 </span>
               </AddressContainer>
             </Typography>
