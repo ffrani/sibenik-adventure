@@ -51,11 +51,11 @@ const SplitTextContainer = () => {
               <AddressContainer>
                 <RoomRoundedIcon style={{ color: "white" }} />
                 <span style={{ marginLeft: "8px", color: "white" }}>
-                  Uvala Sv. Petar bb, 22000, Šibenik, Hrvatska
+                  Mandalina, Uvala Sv. Petar bb, 22000, Šibenik, Hrvatska
                 </span>
               </AddressContainer>
             </Typography>
-            <a href="https://www.google.com/maps/place/Kayaking+%C5%A0ibenik/@43.7142408,15.9021255,17z/data=!3m1!4b1!4m6!3m5!1s0x1335252b80c98461:0x67189804d8418fe3!8m2!3d43.7142408!4d15.9021255!16s%2Fg%2F11h1yvmk39?entry=ttu">
+            <a href="https://www.google.com/maps/place/%C5%A0IBENIK+ADVENTURE+kayaking/@43.714137,15.901516,17z/data=!3m1!4b1!4m6!3m5!1s0x133525002686b3fd:0xc5f80d96d83700eb!8m2!3d43.714137!4d15.901516!16s%2Fg%2F11y57j7ttt?entry=ttu">
               <button
                 style={{
                   marginTop: "30px",

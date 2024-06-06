@@ -79,13 +79,14 @@ export default function AccordionExpandDefault() {
               <AccordionDetails>
                 <Typography>
                   Distance from start to finish: 6 km. Sea temperature: Between
-                  19°C and 27°C. It depends on the season. Fitness Level: A
-                  minimum level of fitness is required. Previous experience: Not
-                  necessary. Age: Minimum age is 6 years Number of people per
-                  day: Minimum of 2 and a maximum of 16. Availability: Every day
-                  from the 1st of May to the end of October. This trip runs if
-                  there are 2 or more people. E-mail us regarding dates and tell
-                  us the number of people in your group.
+                  19°C and 27°C, it depends on the season. <br /> Fitness Level:
+                  A minimum level of fitness is required. <br /> Previous
+                  experience: Not necessary. <br /> Age: Minimum age is 6 years.{" "}
+                  <br /> Number of people per day: Minimum of 2 and a maximum of
+                  16. <br /> Availability: Every day from the 1st of May to the
+                  end of October. <br /> This trip runs if there are 2 or more
+                  people. E-mail us regarding dates and tell us the number of
+                  people in your group.
                 </Typography>
               </AccordionDetails>
             </Accordion>
