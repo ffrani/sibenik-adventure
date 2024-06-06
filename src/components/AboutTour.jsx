@@ -78,20 +78,14 @@ export default function AccordionExpandDefault() {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  Distance from start to finish: 4.6 km Sea temperature: Between
-                  19°C and 27°C. It depends on the season. Cliff diving: You can
-                  jump in the seawater in places allowed by the guide. Fitness
-                  Level: A minimum level of fitness is required. Previous
-                  experience: Not necessary. Age: Minimum age is 6 years Number
-                  of people per day: Minimum of 4 and a maximum of 60.
-                  Availability: Every day from the 1st of May to the end of
-                  October. This trip runs if there are 2 or more people. E-mail
-                  us regarding dates and tell us the number of people in your
-                  group. We also need to know if you need transfers. We will
-                  inform you about the dates available. Starts from:
-                  Brela/Jakiruša Sea kayaking & snorkeling tour departure times:
-                  Between 9 AM and 10 AM (or as agreed for each group). Duration
-                  of the tour: 3.30 – 4h
+                  Distance from start to finish: 6 km. Sea temperature: Between
+                  19°C and 27°C. It depends on the season. Fitness Level: A
+                  minimum level of fitness is required. Previous experience: Not
+                  necessary. Age: Minimum age is 6 years Number of people per
+                  day: Minimum of 2 and a maximum of 16. Availability: Every day
+                  from the 1st of May to the end of October. This trip runs if
+                  there are 2 or more people. E-mail us regarding dates and tell
+                  us the number of people in your group.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -108,10 +102,7 @@ export default function AccordionExpandDefault() {
                   Special Conditions: The operator has the right to cancel
                   tours, without notice at their discretion depending on the
                   weather or sea conditions. All safety instructions from
-                  Šibenik Adventure staff must be adhered to. Duration of the
-                  transfer: 3 hours – one way (60 km from Split) or 20 min
-                  Organized transfers: Every day from Split and Makarska city
-                  centers. For more information, visit the FAQ page
+                  Šibenik Adventure staff must be adhered to.
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -125,9 +116,10 @@ export default function AccordionExpandDefault() {
               </AccordionSummary>
               <AccordionDetails>
                 <Typography>
-                  Activity price: 40€ per person The price includes: Equipment,
-                  insurance, and guide assistance. Price of transfer: 20€ per
-                  person – both directions included. Payment: Cash.
+                  Activity price: 40€ per person. The price includes: Equipment
+                  (paddle, life vest, dry bag), bottle of water, and guide
+                  assistance. <br />
+                  Payment: Cash.
                 </Typography>
               </AccordionDetails>
             </Accordion>

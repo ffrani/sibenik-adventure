@@ -23,7 +23,7 @@ const GridContainer = () => {
           <CalendarMonthRoundedIcon style={{ color: "white" }} />
         </div>
         <div className="text-elements">
-          <div>1.5 - 1.10</div>
+          <div>1.5. - 1.11.</div>
           <div>available</div>
         </div>
       </div>
