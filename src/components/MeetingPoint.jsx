@@ -58,8 +58,8 @@ const SplitTextContainer = () => {
                 <AlarmRoundedIcon style={{ color: "white" }} />
                 <span style={{ marginLeft: "8px", color: "white" }}>
                   <p>
-                    1st tour 09:00 AM - 12:00 PM
-                    <br /> 2nd tour 17:00 PM - 20:00 PM
+                    1st tour 09:00 AM - 11:30 PM
+                    <br /> 2nd tour 18:00 PM - 20:30 PM
                   </p>
                 </span>
               </AddressContainer>

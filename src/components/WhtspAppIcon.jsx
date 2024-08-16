@@ -11,19 +11,19 @@ const WhatsAppIcon = () => {
     <div
       style={{
         position: "fixed",
-        bottom: "20px", // Adjust this value to change the vertical position
-        right: "20px", // Adjust this value to change the horizontal position
-        zIndex: "9999", // Ensures the icon stays above other content
-        cursor: "pointer", // Change cursor to pointer on hover
+        bottom: "20px",
+        right: "20px",
+        zIndex: "9999",
+        cursor: "pointer",
       }}
       onClick={handleWhatsAppClick}
     >
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1191px-WhatsApp.svg.png" // Replace with the WhatsApp icon image URL
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1191px-WhatsApp.svg.png"
         alt="WhatsApp Chat"
         style={{
-          width: "50px", // Adjust the width of the icon as needed
-          height: "auto", // Maintain aspect ratio
+          width: "50px",
+          height: "auto",
         }}
       />
     </div>

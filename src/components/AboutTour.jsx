@@ -60,11 +60,11 @@ export default function AccordionExpandDefault() {
               <AccordionDetails>
                 <Typography>
                   Let&apos;s explore together with kayaks the beauty of the
-                  Šibenik canal and the city of Šibenik, i.e. the fictitious
-                  Bravos from the popular game of thrones series. Let&apos;s
-                  swim in the crystal blue sea on the beach next to the caves
-                  and visit the UNESCO heritage site, the imposing sea fortress
-                  of St. Nicholas. <br /> Tour: 3h - 6km
+                  Šibenik canal and the city of Šibenik, paddling through the WW
+                  II &quot;Hitler&apos;s eyes&quot; tunnel. Let&apos;s swim in
+                  the crystal blue sea on the beach next to the caves and visit
+                  the UNESCO heritage site, the imposing sea fortress of St.
+                  Nicholas. <br /> Tour: 3h - 6km
                 </Typography>
               </AccordionDetails>
             </Accordion>
