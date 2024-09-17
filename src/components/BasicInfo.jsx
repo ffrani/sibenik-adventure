@@ -41,7 +41,7 @@ const GridContainer = () => {
           <AlarmRoundedIcon style={{ color: "white" }} />
         </div>
         <div className="text-elements">
-          <div>2:30h</div>
+          <div>2.30h</div>
           <div>duration</div>
         </div>
       </div>

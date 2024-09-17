@@ -60,11 +60,11 @@ export default function AccordionExpandDefault() {
               <AccordionDetails>
                 <Typography>
                   Let&apos;s explore together with kayaks the beauty of the
-                  Šibenik canal and the city of Šibenik, paddling through the WW
-                  II &quot;Hitler&apos;s eyes&quot; tunnel. Let&apos;s swim in
-                  the crystal blue sea on the beach next to the caves and visit
-                  the UNESCO heritage site, the imposing sea fortress of St.
-                  Nicholas. <br /> Tour: 3h - 6km
+                  Šibenik channel and the city of Šibenik, paddling through the
+                  WW II &quot;Hitler&apos;s eyes&quot; tunnel. Let&apos;s swim
+                  in the crystal blue sea on the beach next to the caves and
+                  visit the UNESCO heritage site, the imposing sea fortress of
+                  St. Nicholas. <br /> Tour: 2.30h - 6km
                 </Typography>
               </AccordionDetails>
             </Accordion>
@@ -118,8 +118,8 @@ export default function AccordionExpandDefault() {
               <AccordionDetails>
                 <Typography>
                   Activity price: 40€ per person. The price includes: Equipment
-                  (paddle, life vest, dry bag), bottle of water, and guide
-                  assistance. <br />
+                  (paddle, life vest, dry bag), insurance and guide assistance.{" "}
+                  <br />
                   Payment: Cash.
                 </Typography>
               </AccordionDetails>

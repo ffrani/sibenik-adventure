@@ -14,7 +14,7 @@ const Hero = () => {
         <h2 style={{ fontSize: "35px" }}>Sea Kayaking Šibenik</h2>
         <p style={{ fontSize: "20px" }}>
           Let&apos;s explore together with kayaks, <br /> the beauty of the
-          Šibenik canal <br /> and the city of Šibenik.
+          Šibenik channel <br /> and the city of Šibenik.
         </p>
         <button
           style={{
